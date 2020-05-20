@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128157; Love </title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="heading">    
+            <h2>&#128154;</h2>
+            <div class="pagin">
+                <div class="album">
+                    <img id="image1" class="album__img" src="./resources/images/slide/IMG_7426.JPG" alt="pic1">
+                    <img id="image2" class="album__img" src="./resources/images/slide/IMG_7427.JPG" alt="pic2">
+                    <img id="image3" class="album__img" src="./resources/images/slide/IMG_7429.JPG" alt="pic3">
+                </div>
+                <div class="button-bar">
+                    <button id="btn1" class="btn btn--round" onclick="changeColor(0)"></button>
+                    <button id="btn2" class="btn btn--round" onclick="changeColor(1)"></button>
+                    <button id="btn3" class="btn btn--round" onclick="changeColor(2)"></button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+
+            <div class="center">
+                <div class="info">
+                    <div class="info__gender info__gender--female">
+                        <img class="info__img" src="./resources/images/IMG_7441.JPG" alt="avt">
+                        <div class="info__name">Lê Thanh Diệp</div>
+                        <div class="info__dob">&#9809; 07/01/99</div>
+                    </div>
+                    <span class="info__heart-symbol">&#128151;</span>
+                    <div class="info__gender info__gender--male">
+                        <img class="info__img" src="./resources/images/IMG_7440.JPG" alt="avt">
+                        <div class="info__name">Nguyễn Sỹ Quang Anh</div>
+                        <div class="info__dob">&#9808; 21/12/99</div>
+                    </div>
+                </div>
+                <div class="love-title">From Feb 12th, In Love...</div>
+                <div class="counter">
+                    <div class="counter__block">
+                        <span class="counter__block--number" id="day"></span>
+                        <span class="counter__block--detail">Days</span>
+                    </div>
+                    <div class="counter__block">
+                        <span class="counter__block--number" id="hour"></span>
+                        <span class="counter__block--detail">Hours</span>
+                    </div>
+                    <div class="counter__block">
+                        <span class="counter__block--number" id="minute"></span>
+                        <span class="counter__block--detail">Minutes</span>
+                    </div>
+                    <div class="counter__block">
+                        <span class="counter__block--number" id="second"></span>
+                        <span class="counter__block--detail">Seconds</span>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+
+    <audio autoplay loop>
+        <source src="./resources/music/Perfect - Ed Sheeran.mp3" type="audio/mpeg">
+        Ko hỗ trợ audio rùi
+    </audio>
+    <script>
+        const listButton = document.querySelectorAll('.btn');
+        const len = listButton.length;
+        const changeColor = (param) => {
+            listButton[param].style.backgroundColor = 'rgba(9, 245, 87, 0.8)';
+            for (let i = 0; i < len; i++) {
+                if (i === param) continue;
+                listButton[i].style.backgroundColor = '';
+            }
+        }
+    </script>
+    <script src="./scripts/days.counter.js"></script>
+    <script src="./scripts/album.slide.js"></script>
+</body>
+
+</html>
