@@ -22,8 +22,17 @@ html {
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 60px;
+    color: rgb(247, 7, 7);
+    letter-spacing: 8px;
+    font-family: 'Satisfy', cursive;
 }
+
+.heart--green {
+    font-size: 70px;
+    
+}
+
 
 /* ---------------HEADING------------- */
 .heading {
