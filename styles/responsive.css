@@ -24,11 +24,6 @@
         width: 100%;
     }
 
-    .info__heart-symbol {
-        width: 20%;
-    }
-
-
     h2 {
         letter-spacing: 2px;
     }
@@ -53,11 +48,16 @@
     .info__gender {
         width: 200px;
         height: 200px;
-
     }
+
+    .info__heart-symbol {
+        width: 20%;
+        margin-bottom: -10px;
+    }
+
     .info__gender--female {
         left: 0;
-        top: 10px;
+        top: 20px;
     }
     .info__gender--male {
         right: 0;
