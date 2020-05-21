@@ -169,7 +169,8 @@ h2 {
 }
 
 .info__heart-symbol {
-    font-size: 80px;
+    width: 12%;
+    /* font-size: 80px; */
     animation: beating .75s infinite;
     z-index: 100;
 }
