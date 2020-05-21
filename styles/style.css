@@ -13,11 +13,11 @@ html {
 /* ------CONTAINER */
 
 .container {
-    background-image: linear-gradient(45deg, rgba(153, 53, 13, 0.2) 20%, rgba(238, 154, 75, 0.2)), url(../resources/images/Just_hold_my_hand.jpg);
-    background-size: cover;
     height: 100vh;
 
-    background-position: center;
+    background-image: linear-gradient(45deg, rgba(153, 53, 13, 0.2) 20%, rgba(238, 154, 75, 0.2)), url(../resources/images/Just_hold_my_hand.jpg);
+    background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -190,7 +190,7 @@ h2 {
 .info__name {
     margin-top: 20px;
     font-size: 2.5rem;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Nunito', sans-serif;
 }
 
 .info__name::after {
@@ -206,7 +206,7 @@ h2 {
 
 .info__dob {
     font-size: 2.5rem;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* <---Counter-----> */
