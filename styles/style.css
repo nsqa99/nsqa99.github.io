@@ -151,6 +151,7 @@ h2 {
 
 .info__gender:hover .info__img {
     transform: scale(1.2);
+    box-shadow: 0 0 2px 2px rgb(9, 245, 88);
 }
 
 .info__gender:hover .info__name::after {
@@ -181,7 +182,7 @@ h2 {
     width: 40%;
     height: auto;
 
-    transition: scale 1.5s ease;
+    transition: scale 1.5s ease, box-shadow 1s ease;
 }
 
 .info__name {
