@@ -7,6 +7,7 @@
 
 html {
     background-color: rgb(64, 192, 70);
+    font-size: 10px;
 }
 
 /* ------CONTAINER */
@@ -22,14 +23,14 @@ html {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 6rem;
     color: rgb(247, 7, 7);
     letter-spacing: 8px;
     font-family: 'Satisfy', cursive;
 }
 
 .heart--green {
-    font-size: 70px;
+    font-size: 7rem;
     
 }
 
@@ -54,7 +55,7 @@ h2 {
 
 /* <--Image--> */
 .pagin .album {
-    width: 800px;
+    width: 69%;
     height: 100%;
     margin: 0 auto;
     position: relative;
@@ -188,7 +189,7 @@ h2 {
 
 .info__name {
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -204,7 +205,7 @@ h2 {
 }
 
 .info__dob {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -215,7 +216,7 @@ h2 {
     
     margin-top: 100px;
     margin-right: 150px;
-    font-size: 50px;
+    font-size: 5rem;
     color: rgb(36, 34, 34);
 }
 
@@ -224,7 +225,7 @@ h2 {
     font-family: 'Pacifico', cursive;
 
     margin: 30px 0 50px 200px;
-    font-size: 50px;
+    font-size: 5rem;
     color: rgb(36, 34, 34);
 }
 
@@ -239,8 +240,8 @@ h2 {
 }
 
 .counter__block {
-    width: 90px;
-    height: 90px;
+    width: 20%;
+    height: fit-content;
     background-color: #cccc;
     display: flex;
     flex-direction: column;
@@ -249,12 +250,12 @@ h2 {
 }
 .counter__block--number {
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .counter__block--detail {
     
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Satisfy', cursive;
 }
 

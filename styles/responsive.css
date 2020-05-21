@@ -1,0 +1,80 @@
+@media screen and (min-width: 1920px) {
+    .info__gender--female {
+        left: 13%;
+    }
+    .info__gender--male {
+        right: 13%;
+    }
+    .info__heart-symbol {
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 850px) {
+    html {
+        font-size: 6px;
+    }
+    
+    .heading, 
+    .container {
+        height: 50vh;
+    }
+
+    .pagin .album {
+        width: 100%;
+    }
+
+    .info__heart-symbol {
+        width: 20%;
+    }
+
+
+    h2 {
+        letter-spacing: 2px;
+    }
+
+    .button-bar {
+        top: 80%;
+    }
+
+    .btn--round {
+        padding: 2%;
+    }
+
+    .center {
+        height: 30vh;
+        margin-top: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info__gender {
+        width: 200px;
+        height: 200px;
+
+    }
+    .info__gender--female {
+        left: 0;
+        top: 10px;
+    }
+    .info__gender--male {
+        right: 0;
+        top: 0;
+    }
+
+    .love-title {
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+
+    .love-title__footer {
+        margin: 0 0 20px 70px;
+    }
+
+    .counter {
+        width: 80%;
+    }
+
+}
