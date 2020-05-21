@@ -75,11 +75,9 @@
         </div>
 
     </div>
-
-
-    <audio autoplay loop>
-        <source src="./resources/music/Perfect - Ed Sheeran.mp3" type="audio/mpeg">
-        Ko hỗ trợ audio rùi
+    <iframe src="./resources/music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+    <audio id="player" autoplay loop>
+        <source src="./resources/music/Perfect - Ed Sheeran.mp3" type="audio/mp3">
     </audio>
     <script>
         const listButton = document.querySelectorAll('.btn');
