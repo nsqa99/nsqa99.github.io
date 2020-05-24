@@ -10,6 +10,98 @@ html {
     font-size: 10px;
 }
 
+.overflowX {
+    overflow-x: hidden;
+}
+
+.overflowY {
+    overflow-y: hidden;
+}
+
+/* ---------ANIMATION------------ */
+.movement {
+    animation: slidein 1s;
+}
+
+.movement--infinite {
+    animation: slidein 2s infinite;
+}
+
+.moveup__left{
+    animation: moveup 2s forwards;
+}
+
+.moveup__right{
+    animation: moveup 2s .5s backwards;
+}
+
+.moveleft {
+    animation: moveleft 2s forwards;
+}
+
+.moveright {
+    animation: moveright 2s forwards;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* --------COVER--------- */
+.cover {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(240, 126, 118);
+    position: absolute;
+    z-index: 9999;
+}
+
+.loading {
+    position: absolute;
+    z-index: 10000;
+    font-size: 4rem;
+    color: rgb(15, 15, 15);
+    font-family: 'Satisfy', cursive;
+    top: 70%;
+    left: 45%;
+}
+
+.heart-cover {
+    z-index: 10000;
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    animation: beating .75s infinite;
+}
+
+.cover__detail {
+    font-size: 6rem;
+    color: rgb(15, 15, 15);
+    letter-spacing: 3px;
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    top: 45%;
+}
+
+/* .cover--left {
+    
+} */
+
+.cover--right {
+    transform: translateX(100%);
+}
+
+.cover__detail--left {
+    left: 70%;
+    
+}
+
+.cover__detail--right {
+    right: 67%;
+    
+}
+
 /* ------CONTAINER */
 
 .container {
@@ -81,22 +173,6 @@ h2 {
 
 #image3 {
     z-index: -1;
-}
-
-.movement {
-    animation: slidein 1s;
-}
-
-.movement--infinite {
-    animation: slidein 2s infinite;
-}
-
-.moveup__left{
-    animation: moveup 2s forwards;
-}
-
-.moveup__right{
-    animation: moveup 2s .5s backwards;
 }
 
 
@@ -276,7 +352,7 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    animation: lighten 8s forwards;
+    animation: lighten 8s 6s forwards;
     
 }
 .counter__block--number {

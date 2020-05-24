@@ -13,13 +13,23 @@
     0% {transform: scale(1);}
     25% {transform: scale(1.2);}
     50% {transform: scale(1.1);}
-    70% {transform: scale(1);}
-    100%{transform: scale(0.5);}
+    70% {transform: scale(1.15);}
+    100%{transform: scale(1);}
 }
 
 @keyframes moveup {
     0% {transform: translateY(120%);}
     100% {transform: translateY(0);}
+}
+
+@keyframes moveleft {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-100%);}
+}
+
+@keyframes moveright {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(200%);}
 }
 
 @keyframes lighten {

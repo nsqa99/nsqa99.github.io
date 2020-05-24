@@ -20,6 +20,25 @@
         height: 50vh;
     }
 
+    .heart-cover {
+        top: 48%;
+    }
+
+    .loading {
+        top: 60%;
+        left: 45%;
+    }
+
+    .cover__detail--left {
+        top: 47%;
+        left: 42%;
+    }
+
+    .cover__detail--right {
+        top: 47%;
+        right: 43%;
+    }
+
     .pagin .album {
         width: 100%;
     }
