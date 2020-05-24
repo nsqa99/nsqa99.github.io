@@ -35,14 +35,14 @@
 
             <div class="center">
                 <div class="info">
-                    <div class="info__gender info__gender--female">
+                    <div id="gender-left" class="info__gender info__gender--female">
                         <img class="info__img" src="./resources/images/IMG_7441.JPG" alt="avt">
                         <div class="info__name">Lê Thanh Diệp</div>
                         <div class="info__dob">&#9809; 07/01/99</div>
                     </div>
                     <!-- <span class="info__heart-symbol"></span> -->
-                    <img src="./resources/images/unnamed.png" alt="heart" class="info__heart-symbol">
-                    <div class="info__gender info__gender--male">
+                    <img id="info-heart" src="./resources/images/unnamed.png" alt="heart" class="info__heart-symbol">
+                    <div id="gender-right" class="info__gender info__gender--male">
                         <img class="info__img" src="./resources/images/IMG_7440.JPG" alt="avt">
                         <div class="info__name">Nguyễn Sỹ Quang Anh</div>
                         <div class="info__dob">&#9808; 21/12/99</div>
@@ -84,9 +84,13 @@
         const len = listButton.length;
         const changeColor = (param) => {
             listButton[param].style.backgroundColor = 'rgba(9, 245, 87, 0.8)';
+            listButton[param].classList.add('btn--big');
+            listButton[param].classList.add('btn--shadowed');
             for (let i = 0; i < len; i++) {
                 if (i === param) continue;
                 listButton[i].style.backgroundColor = '';
+                listButton[i].classList.remove('btn--big');
+                listButton[i].classList.remove('btn--shadowed');
             }
         }
     </script>

@@ -83,6 +83,14 @@ h2 {
     z-index: -1;
 }
 
+.movement {
+    animation: slidein 1s ease;
+}
+
+.movement--infinite {
+    animation: slidein 2s ease infinite;
+}
+
 /* <--Button--> */
 
 .button-bar {
@@ -93,6 +101,9 @@ h2 {
     z-index: 1000;
 }
 
+.btn {
+    margin-left: 3px;
+}
 
 .btn--round {
     border-radius: 50%;
@@ -101,11 +112,21 @@ h2 {
     cursor: pointer;
     padding: .7%;
     transition: background-color .5s ease;
+    outline-style: none;
+}
+
+.btn--big {
+    transform: scale(1.2);
+}
+
+.btn--shadowed {
+    box-shadow: 0 0 1px 1.5px white;
 }
 
 .btn--round:hover {
     background-color: rgba(9, 245, 87, 0.8);
     transform: scale(1.2);
+    box-shadow: 0 0 1px 1.5px white;
 }
 
 /*--------CONTENT---------*/
