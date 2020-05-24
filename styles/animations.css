@@ -18,6 +18,28 @@
 }
 
 @keyframes moveup {
-    0% {transform: translateY(100%);}
+    0% {transform: translateY(120%);}
     100% {transform: translateY(0);}
+}
+
+@keyframes lighten {
+    0% {opacity: 0;}
+    5% {opacity: .05;}
+    10% {opacity: .1;}
+    25% {opacity: .25;}
+    30% {opacity: .3;}
+    35% {opacity: .35;}
+    40% {opacity: .4;}
+    45% {opacity: .45;}
+    50% {opacity: .5;}
+    55% {opacity: .55;}
+    60% {opacity: .6;}
+    65% {opacity: .65;}
+    70% {opacity: .7;}
+    75% {opacity: .75;}
+    80% {opacity: .8;}
+    85% {opacity: .85;}
+    90% {opacity: .9;}
+    95% {opacity: .95;}
+    100% {opacity: 1;}
 }

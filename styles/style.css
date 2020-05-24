@@ -84,12 +84,21 @@ h2 {
 }
 
 .movement {
-    animation: slidein 1s ease;
+    animation: slidein 1s;
 }
 
 .movement--infinite {
-    animation: slidein 2s ease infinite;
+    animation: slidein 2s infinite;
 }
+
+.moveup__left{
+    animation: moveup 2s forwards;
+}
+
+.moveup__right{
+    animation: moveup 2s .5s backwards;
+}
+
 
 /* <--Button--> */
 
@@ -136,7 +145,6 @@ h2 {
     margin-top: 50px;
     height: 60vh;
     width: 100%;
-
     
 }
 
@@ -144,8 +152,9 @@ h2 {
     display: flex;
     align-items: center;
     width: 80%;
+    height: 100%;
     margin: 0 auto;
-
+    overflow: hidden;
 }
 
 .info__gender {
@@ -235,7 +244,7 @@ h2 {
     text-align: center;
     font-family: 'Pacifico', cursive;
     
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 150px;
     font-size: 5rem;
     color: rgb(36, 34, 34);
@@ -267,6 +276,7 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    animation: lighten 8s forwards;
     
 }
 .counter__block--number {
