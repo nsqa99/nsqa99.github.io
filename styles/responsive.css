@@ -37,7 +37,7 @@
     }
 
     .center {
-        height: 30vh;
+        height: 70vh;
         margin-top: 10px;
     }
 
@@ -48,6 +48,7 @@
     .info__gender {
         width: 200px;
         height: 200px;
+        animation: none;
     }
 
     .info__heart-symbol {
@@ -66,7 +67,7 @@
     }
 
     .love-title {
-        margin-top: 20px;
+        margin-top: 5px;
         margin-right: 100px;
     }
 
@@ -76,6 +77,10 @@
 
     .counter {
         width: 80%;
+    }
+
+    .counter__block {
+        animation: lighten 5s forwards;
     }
 
 }
