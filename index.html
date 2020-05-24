@@ -13,69 +13,74 @@
     <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 
-<body id="body" class="overflowX overflowY">
-    <div id="left-cover" class="cover cover--left"><span class="cover__detail cover__detail--left">NSQA</span></div>
-    <div id="right-cover" class="cover cover--right"><span class="cover__detail cover__detail--right">LTD</span></div>
-    <img id="heart-cover" src="./resources/images/cover-heart.png" alt="cover-logo" class="heart-cover">
-    <span id="loading" class="loading">Loading . . .</span>
-    <div class="container">
-        
-        <div class="heading">    
-            <h2>NSQA <span class="heart--green">&#128154;</span> LTD</h2>
-            <div class="pagin">
-                <div class="album">
-                    <img id="image1" class="album__img" src="./resources/images/slide/IMG_7426.JPG" alt="pic1">
-                    <img id="image2" class="album__img" src="./resources/images/slide/IMG_7427.JPG" alt="pic2">
-                    <img id="image3" class="album__img" src="./resources/images/slide/IMG_7429.JPG" alt="pic3">
-                </div>
-                <div class="button-bar">
-                    <button id="btn1" class="btn btn--round" onclick="changeColor(0)"></button>
-                    <button id="btn2" class="btn btn--round" onclick="changeColor(1)"></button>
-                    <button id="btn3" class="btn btn--round" onclick="changeColor(2)"></button>
-                </div>
-            </div>
+<body>
+    <div id="wrapper" class="overflowY">
+        <div id="left-cover" class="cover cover--left"><span class="cover__detail cover__detail--left">NSQA</span></div>
+        <div id="right-cover" class="cover cover--right"><span class="cover__detail cover__detail--right">LTD</span>
         </div>
-        <div class="content">
+        <img id="heart-cover" src="./resources/images/cover-heart.png" alt="cover-logo" class="heart-cover">
+        <span id="loading" class="loading">Loading . . .</span>
+        <div class="container">
 
-            <div class="center">
-                <div class="info">
-                    <div id="gender-left" class="info__gender info__gender--female">
-                        <img class="info__img" src="./resources/images/IMG_7441.JPG" alt="avt">
-                        <div class="info__name">Lê Thanh Diệp</div>
-                        <div class="info__dob">&#9809; 07/01/99</div>
+            <div class="heading">
+                <h2>NSQA <span class="heart--green">&#128154;</span> LTD</h2>
+                <div class="pagin">
+                    <div class="album">
+                        <img id="image1" class="album__img" src="./resources/images/slide/IMG_7426.JPG" alt="pic1">
+                        <img id="image2" class="album__img" src="./resources/images/slide/IMG_7427.JPG" alt="pic2">
+                        <img id="image3" class="album__img" src="./resources/images/slide/IMG_7429.JPG" alt="pic3">
                     </div>
-                    <!-- <span class="info__heart-symbol"></span> -->
-                    <img id="info-heart" src="./resources/images/unnamed.png" alt="heart" class="info__heart-symbol">
-                    <div id="gender-right" class="info__gender info__gender--male">
-                        <img class="info__img" src="./resources/images/IMG_7440.JPG" alt="avt">
-                        <div class="info__name">Nguyễn Sỹ Quang Anh</div>
-                        <div class="info__dob">&#9808; 21/12/99</div>
+                    <div class="button-bar">
+                        <button id="btn1" class="btn btn--round" onclick="changeColor(0)"></button>
+                        <button id="btn2" class="btn btn--round" onclick="changeColor(1)"></button>
+                        <button id="btn3" class="btn btn--round" onclick="changeColor(2)"></button>
                     </div>
                 </div>
-                <div class="love-title">In Love...</div>
-                <div class="counter">
-                    <div class="counter__block">
-                        <span class="counter__block--number" id="day"></span>
-                        <span class="counter__block--detail">Days</span>
-                    </div>
-                    <div class="counter__block">
-                        <span class="counter__block--number" id="hour"></span>
-                        <span class="counter__block--detail">Hours</span>
-                    </div>
-                    <div class="counter__block">
-                        <span class="counter__block--number" id="minute"></span>
-                        <span class="counter__block--detail">Minutes</span>
-                    </div>
-                    <div class="counter__block">
-                        <span class="counter__block--number" id="second"></span>
-                        <span class="counter__block--detail">Seconds</span>
-                    </div>
+            </div>
+            <div class="content">
 
+                <div class="center">
+                    <div class="info">
+                        <div id="gender-left" class="info__gender info__gender--female">
+                            <img class="info__img" src="./resources/images/IMG_7441.JPG" alt="avt">
+                            <div class="info__name">Lê Thanh Diệp</div>
+                            <div class="info__dob">&#9809; 07/01/99</div>
+                        </div>
+                        <!-- <span class="info__heart-symbol"></span> -->
+                        <img id="info-heart" src="./resources/images/unnamed.png" alt="heart"
+                            class="info__heart-symbol">
+                        <div id="gender-right" class="info__gender info__gender--male">
+                            <img class="info__img" src="./resources/images/IMG_7440.JPG" alt="avt">
+                            <div class="info__name">Nguyễn Sỹ Quang Anh</div>
+                            <div class="info__dob">&#9808; 21/12/99</div>
+                        </div>
+                    </div>
+                    <div class="love-title">In Love...</div>
+                    <div class="counter">
+                        <div class="counter__block">
+                            <span class="counter__block--number" id="day"></span>
+                            <span class="counter__block--detail">Days</span>
+                        </div>
+                        <div class="counter__block">
+                            <span class="counter__block--number" id="hour"></span>
+                            <span class="counter__block--detail">Hours</span>
+                        </div>
+                        <div class="counter__block">
+                            <span class="counter__block--number" id="minute"></span>
+                            <span class="counter__block--detail">Minutes</span>
+                        </div>
+                        <div class="counter__block">
+                            <span class="counter__block--number" id="second"></span>
+                            <span class="counter__block--detail">Seconds</span>
+                        </div>
+
+                    </div>
+                    <div class="love-title__footer">...Since Feb 12th, 2020.</div>
                 </div>
-                <div class="love-title__footer">...Since Feb 12th, 2020.</div>
+
+
             </div>
 
-            
         </div>
 
     </div>

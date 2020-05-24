@@ -10,12 +10,15 @@ html {
     font-size: 10px;
 }
 
-.overflowX {
-    overflow-x: hidden;
-}
 
 .overflowY {
     overflow-y: hidden;
+}
+
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
 }
 
 /* ---------ANIMATION------------ */

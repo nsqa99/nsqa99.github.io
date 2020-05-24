@@ -3,10 +3,9 @@ const right = document.getElementById('gender-right');
 const heart = document.getElementById('info-heart');
 
 
-
 const addAnimationToInfo = () => {
     left.classList.add('moveup__left');
     right.classList.add('moveup__right');
 }
 
-document.addEventListener('scroll', addAnimationToInfo);
+wrapper.addEventListener('scroll', addAnimationToInfo);

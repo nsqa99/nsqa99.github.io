@@ -3,7 +3,7 @@ const rightCover = document.getElementById('right-cover');
 const heartCover = document.getElementById('heart-cover');
 const loading = document.getElementById('loading');
 
-const body = document.getElementById('body');
+const wrapper = document.getElementById('wrapper');
 
 
 setTimeout(() => {
@@ -14,6 +14,6 @@ setTimeout(() => {
 
     loading.classList.add('hidden');
 
-    body.classList.remove('overflowY');
-
+    wrapper.classList.remove('overflowY');
+    
 }, 6000);

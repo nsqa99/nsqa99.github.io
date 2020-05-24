@@ -20,6 +20,10 @@
         height: 50vh;
     }
 
+    #wrapper {
+        height: 100vh;
+    }
+
     .heart-cover {
         top: 48%;
     }
