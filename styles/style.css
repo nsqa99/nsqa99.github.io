@@ -26,9 +26,9 @@ body #wrapper {
     -webkit-overflow-scrolling: touch;
 }
 
-/* body #wrapper > * {
+body #wrapper > *:not(.cover) {
     -webkit-transform: translateZ(0);
-} */
+} 
 
 /* ---------ANIMATION------------ */
 .movement {
