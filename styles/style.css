@@ -6,10 +6,14 @@
 }
 
 html {
+    
     background-color: rgb(64, 192, 70);
     font-size: 10px;
 }
 
+html, body {
+    height: 100%;
+}
 
 .overflowY {
     overflow-y: hidden;
@@ -21,6 +25,10 @@ body #wrapper {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
+
+/* body #wrapper > * {
+    -webkit-transform: translateZ(0);
+} */
 
 /* ---------ANIMATION------------ */
 .movement {
