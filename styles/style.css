@@ -16,9 +16,10 @@ html {
 }
 
 
-#wrapper {
+body #wrapper {
     position: relative;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* ---------ANIMATION------------ */
@@ -355,7 +356,7 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    animation: lighten 8s 6s forwards;
+    animation: lighten 8s 12s forwards;
     
 }
 .counter__block--number {
