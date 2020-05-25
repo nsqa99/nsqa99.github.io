@@ -76,8 +76,8 @@
 
     .info__heart-symbol {
         width: 20%;
-        margin-top: 10px;
-        margin-bottom: -10px;
+        margin-top: 8px;
+        margin-bottom: -8px;
     }
 
     .info__gender--female {
@@ -90,7 +90,7 @@
     }
 
     .love-title {
-        margin-top: 5px;
+        margin-top: 12px;
         margin-right: 100px;
     }
 

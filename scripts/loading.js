@@ -16,4 +16,4 @@ setTimeout(() => {
 
     wrapper.classList.remove('overflowY');
     
-}, 6000);
+}, 10000);

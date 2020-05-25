@@ -12,7 +12,7 @@ let currentIndex2 = 0;
 let currentIndex3 = -1;
 
 
-const timeout = 3500;
+const timeout = 4000;
 const delay = timeout * 3;
 
 window.onload = button1.click();
